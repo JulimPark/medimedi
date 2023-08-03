@@ -30,8 +30,7 @@ names = []
 for i in range(len(name)):
     names.append(f"{user_id[i]}({name[i]})")
 
-authenticator = stauth.Authenticate(names,user_id,user_pass,
-                                    'Test1','abcdef',cookie_expiry_days=30)
+authenticator = stauth.Authenticate(names,user_id,user_pass,'Test1','abcdef',cookie_expiry_days=60)
 
 
 name1, authentication_status, username = authenticator.login('로그인','main')
