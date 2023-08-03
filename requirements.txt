@@ -1,0 +1,5 @@
+pytz
+supabase
+streamlit
+streamlit_authenticator
+pandas
