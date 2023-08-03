@@ -4,7 +4,7 @@ from supabase import create_client
 import streamlit as st
 import streamlit_authenticator as stauth
 import pandas as pd
-
+st.set_page_config(page_title='내가 먹은 모든 약 MEDIMEDI',layout='wide',page_icon=':pill:')
 ## 온라인 게시용 수파 접속
 @st.cache_resource
 def init_connection():
