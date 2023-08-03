@@ -76,7 +76,7 @@ if authentication_status:
     with st.expander('자주 먹는 약'):
         st.button('씬지 1알',on_click=auto_insert,args=('씬지',1))
         st.button('칼슘 3알',on_click=auto_insert,args=('칼슘',3))
-        st.button('본키 1알',on_click=auto_insert,args=('본키',2))
+        st.button('본키 2알',on_click=auto_insert,args=('본키',2))
         st.button('비타민C 1알',on_click=auto_insert,args=('비타민C',1))
         
         
